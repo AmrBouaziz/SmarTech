@@ -108,9 +108,8 @@ public class AssetListActivity extends Activity implements SearchView.OnQueryTex
                 JSONObject result = new JSONObject(jsonString);
                 JSONObject QueryMXASSETResponse = result.getJSONObject("QueryMXASSETResponse");
                 JSONObject MXASSETSet = QueryMXASSETResponse.getJSONObject("MXASSETSet");
-                JSONArray ASSET = MXASSETSet.getJSONArray("ASSET");
 
-                assets = ASSET;
+                assets = MXASSETSet.getJSONArray("ASSET");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
