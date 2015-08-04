@@ -60,7 +60,6 @@ public class AssetListActivity extends Activity implements SearchView.OnQueryTex
     @Override
     // DO nothing with the submit
     public boolean onQueryTextSubmit(String query) {
-
         return false;
     }
 
