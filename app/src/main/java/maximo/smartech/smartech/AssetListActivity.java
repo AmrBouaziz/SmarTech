@@ -133,7 +133,12 @@ public class AssetListActivity extends Activity implements SearchView.OnQueryTex
                                 }
                             }
                         }
-                        Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG).show();
+
+                        //Toast.makeText(getApplicationContext(), text, Toast.LENGTH_LONG).show();
+
+
+
+
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
